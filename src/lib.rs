@@ -13,7 +13,7 @@ pub struct Registry {
 
 impl Registry {
     pub fn from_file(file: File) -> Result<Self, serde_xml_rs::Error> {
-        serde_xml_rs::deserialize(file)
+        serde_xml_rs::from_reader(file)
     }
 }
 
