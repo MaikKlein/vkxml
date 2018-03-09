@@ -6,3 +6,4 @@ authors = ["Terry Brashaw <terrybrashaw@gmail.com>"]
 [dependencies]
 serde = "*"
 serde_derive = "*"
+serde-xml-rs = "0.2.1"
