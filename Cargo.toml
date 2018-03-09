@@ -6,4 +6,4 @@ authors = ["Terry Brashaw <terrybrashaw@gmail.com>"]
 [dependencies]
 serde = "*"
 serde_derive = "*"
-serde-xml-rs = "0.2.1"
+serde-xml-rs = {path = "https://github.com/RReverser/serde-xml-rs.git"}
